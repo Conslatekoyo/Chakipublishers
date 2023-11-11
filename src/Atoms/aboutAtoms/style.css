@@ -1,0 +1,462 @@
+
+
+.vectorElement {
+  width: 350px;
+  height: 380px;
+  background: #093121;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 5%;
+padding: 10px 20px;
+
+
+}
+
+
+.icon{
+  margin-bottom: -16%;
+}
+
+
+
+.imageStyle {
+  align-items: center;
+  width: 100px;
+  height: 100px;
+
+
+}
+
+
+.divContainerStyle {
+  align-items: center;
+
+
+
+}
+
+.customer{
+  padding: 50px 10px 10px;
+  text-align: center;
+  color: #FF9800;
+  font-size:  28px;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.text {
+  padding:0px 10px 10px 10px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .vectorElement {
+    width: 350px;
+    height: 650px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10%;
+
+    padding: 20px 55px;
+
+
+  }
+
+ .icon{
+    margin-top: 5%;
+
+
+ }
+ .customer{
+  font-size: 20px;
+ }
+ .text{
+  font-size: 14px;
+ }
+
+
+}
+
+@media (width: 280px) {
+  .vectorElement {
+    width: 350px;
+    height: 550px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -20%;
+
+
+  }
+
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 1024px) {
+  .vectorElement {
+    width: 350px;
+    height: 350px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -10%;
+
+
+  }
+
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 1280px) {
+  .vectorElement {
+    width: 350px;
+    height: 350px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -10%;
+
+
+  }
+
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+
+ @media (width: 540px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -20%;
+
+
+  }
+
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 390px) {
+  .vectorElement {
+    width: 300px;
+    height: 500px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -20%;
+
+
+  }
+
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 393px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -8%;
+
+
+  }
+
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 414px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -8%;
+
+
+  }
+  .sustainability{
+    margin-left: 4%;
+
+  }
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 412px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -20%;
+
+
+  }
+
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 375px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -20%;
+
+
+  }
+
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 360px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -8%;
+
+
+  }
+
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 540px) {
+  .vectorElement {
+    width: 350px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -1%;
+
+
+  }
+
+  .text {
+
+    text-align: center;
+    padding: 7%;
+  }
+
+ }
+ @media (width: 390px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -8%;
+
+
+  }
+
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 412px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -8%;
+
+
+  }
+
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 375px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -8%;
+
+
+  }
+
+  .text {
+
+    text-align: center;
+  }
+
+ }

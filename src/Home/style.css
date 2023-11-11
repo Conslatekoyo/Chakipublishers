@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+.home-section {
+  background-image: url(/public/images/home1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 936px;
+  width: 100%;
+  margin-top: -10%;
+}
+
+.intro {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fffffd;
+}
+.join-us{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+.slogan{
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #FF9800;
+}
+
+.donate {
+  width: 211.25px;
+  height: 50px;
+  background-color: #60bc0f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 620px;
+  cursor: pointer;
+  transition: background-color 0.8s;
+
+}
+
+.donate:hover {
+  background-color: transparent; /* Use "inset" for the background */
+  border-radius: px;
+  box-shadow: inset 0 0 0 1px #60bc0f;
+}
+
+.causes {
+  width: 211.25px;
+  height: 50px;
+  background-color: #fdbb00;
+  color: #fff;
+  border: none;
+  border-radius: -5px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+
+
+}
+
+.causes:hover {
+  background-color: transparent; /* Use "inset" for the background */
+  border-radius: px;
+  box-shadow: inset 0 0 0 1px #fdbb00;
+}
+
+.donate-text {
+  font-size: 1.0rem;
+}
+.causes-text {
+  font-size: 1.0rem;
+}
+
+@media (max-width: 1024px) {
+  .home-section {
+    height: 700px;
+  }
+
+  .intro,
+  .join-us,
+  .slogan {
+    top: 40%;
+    font-size: 16px;
+  }
+
+  .donate,
+
+  .causes {
+    width: 180px;
+    height: 40px;
+    margin-top: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-section {
+    height: 600px;
+    margin-top: -20%;
+  }
+  .intro{
+    top: 20%;
+
+  }
+
+  .join-us,
+  .slogan {
+    top: 35%;
+    font-size: 14px;
+  }
+
+  .donate,
+  .causes {
+    width: 150px;
+    height: 35px;
+    margin-top: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-section {
+    width: auto;
+    height: 500px;
+    margin-top: -20%;
+  }
+
+  .intro{
+    top: 16%;
+    font-size: 10px;
+
+  }
+  .join-us{
+    top: 26%;
+  }
+  .slogan {
+    top: 34%;
+    font-size: 12px;
+  }
+
+  .donate{
+    width: 120px;
+    height: 30px;
+    margin-top: 340px;
+    margin-left: 140px;
+
+  }
+  .causes {
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+  margin-left: 140px;
+  }
+
+  .buttons{
+    display: flex;
+    flex-direction: column;
+  }
+}

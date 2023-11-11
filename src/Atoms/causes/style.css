@@ -1,0 +1,99 @@
+/* Import your CausesElement component styles here */
+
+.divh1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  color: #093121;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageStyle1 {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.divText {
+  text-align: left;
+  padding: 10px 10px 10px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 60px; /* Adjust as needed */
+}
+
+.cause-container {
+  display: flex;
+  text-align: start;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center;
+  max-width: 400px; /* Set a max width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+@media (max-width: 1024px) {
+  .divh1 {
+    font-size: 24px;
+  }
+
+  .imageStyle1 {
+    width: 120px;
+    height: 120px;
+  }
+
+  .divText {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+  .cause-container {
+    display: flex;
+    text-align: start;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center;
+    max-width: 400px; /* Set a max width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+}
+
+/* Media query for smaller screens (landscape phones) */
+@media (max-width: 768px) {
+  .divh1 {
+    font-size: 20px;
+  }
+
+  .imageStyle1 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .divText {
+    font-size: 14px;
+    margin-top: 60px;
+  }
+}
+
+/* Media query for even smaller screens (portrait phones) */
+@media (max-width: 540px) {
+  .divh1 {
+    font-size: 18px;
+  }
+
+  .imageStyle1 {
+    width: 80px;
+    height: 80px;
+  }
+
+  .divText {
+    font-size: 15px;
+    margin-top: 60px;
+  }
+}

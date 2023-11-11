@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+.our-causes {
+    margin-top: 20px;
+    display: flex;
+    color: #000 !important;
+
+    justify-content: center;
+}
+
+.causes-title {
+    color: #FF9800;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 1024px) {
+
+  }
+  
+  /* Media query for smaller screens (landscape phones) */
+  @media (max-width: 768px) {
+    .our-causes {
+      margin-top: 20px;
+      display: flex;
+      flex-direction:column;
+      color: #000 !important;
+  
+      justify-content: center;
+  }
+
+  }
+  
+  /* Media query for even smaller screens (portrait phones) */
+  @media (max-width: 540px) {
+
+    .our-causes {
+        margin-top: 20px;
+        display: flex;
+        flex-direction:column;
+        color: #000 !important;
+    
+        justify-content: center;
+    }
+
+  }

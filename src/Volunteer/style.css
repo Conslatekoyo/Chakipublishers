@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+.with-background {
+  background-color: #093121;
+  padding: 100px;
+  color: #fff;
+  margin-bottom: 300px;
+  /* Add any other background styles you want */
+}
+
+
+  .joinUs {
+    width: 231.25px;
+    height: 55px;
+    background-color: #fdbb00;
+    color: #fff;
+    border: none;
+    border-radius: -5px;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 650px; */
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: transition 0.3s;
+  }
+  
+  .joinUs:hover {
+    background-color: transparent; /* Use "inset" for the background */
+    box-shadow: 0 0 0 1px #fdbb00;
+  }
+
+  .join-us-text {
+    font-size: 1.0rem;
+  }
+  
+  @media (max-width: 768px) {
+ 
+  
+
+    .joinUs {
+      width: 120px;
+      height: 30px;
+      margin-top: 260px;
+      padding: 2px 1px;
+    }
+  
+
+    .join-us-text {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1290px) {
+
+  
+
+    .joinUs{
+      width: 180px;
+      height: 50px;
+      margin-top: 310px;
+      font-size: 1.2rem;
+    }
+  
+
+    
+    .join-us-text {
+      font-size: 1.3rem;
+    }
+  }

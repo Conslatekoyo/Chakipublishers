@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+.events-title {
+    color:#FF9800 ;
+}
+.events{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+@media (max-width: 1024px) {
+
+}
+
+/* Media query for smaller screens (landscape phones) */
+@media (max-width: 768px) {
+
+
+}
+
+/* Media query for even smaller screens (portrait phones) */
+@media (max-width: 540px) {
+    .events{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+
+}
