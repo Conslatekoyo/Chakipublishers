@@ -46,3 +46,13 @@
     }
 
   }
+
+  @media screen and (width: 820px) {
+    .causes-title {
+      color: #FF9800;
+      margin-top: 50px;
+      font-size: 20px;
+      margin-bottom: 20px;
+  }
+  
+}

@@ -97,3 +97,19 @@
     margin-top: 60px;
   }
 }
+
+@media screen and (width: 820px) {
+  .divh1 {
+    font-size: 14px;
+  }
+
+  .imageStyle1 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .divText {
+    font-size: 12px;
+    margin-top: 40px;
+  }
+}

@@ -10,10 +10,10 @@ const About = () => {
             <div className="header" id="about">
                 <h1 className="about-title">About Us</h1>
                 <h2 className="mision">Mission</h2>
-                <p className="goal"> We work collaboratively with local communities, striving to develop and implement sustainable solutions that uplift living conditions and safeguard the environment.
+                <p className="goals"> We work collaboratively with local communities, striving to develop and implement sustainable solutions that uplift living conditions and safeguard the environment.
 .</p>
                 <h2 className="mision">Vision</h2>
-                <p className="goal">Creating sustainable green landscapes and thriving ecosystems in semi-desert regions, Fostering Bio diversity, Mitigating climate change and improving the livelihoods of local communities.</p>
+                <p className="goals">Creating sustainable green landscapes and thriving ecosystems in semi-desert regions, Fostering Bio diversity, Mitigating climate change and improving the livelihoods of local communities.</p>
             </div>
             <div className="value">
       <div className="header">

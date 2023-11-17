@@ -9,9 +9,7 @@
     justify-content: center;
     margin-bottom: 10px;
 }
-@media (max-width: 1024px) {
 
-}
 
 /* Media query for smaller screens (landscape phones) */
 @media (max-width: 768px) {
@@ -29,4 +27,14 @@
     }
 
 
+}
+
+@media screen and (width: 820px) {
+
+    .events{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
 }

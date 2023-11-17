@@ -7,6 +7,8 @@
   background-color: #fff;
   color: black;
   margin-left: 8%;
+  margin-top: 2%;
+  margin-right: 5%;
 }
 
 .brand-container {
@@ -109,4 +111,59 @@
     fill: #000;
   }
   
+}
+
+@media screen and (width: 820px) {
+  /* styles for screens 1200px and wider, suitable for Next Hub Max */
+ .nav-list a {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .brand-name {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 13px
+  }
+  .logo-img {
+    width: 45px;
+    height: 40px;
+    fill: #000;
+  }
+  .navbar-wrapper {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+  }
+  
+
+}
+
+@media screen and (width: 1280px) {
+  /* styles for screens 1200px and wider, suitable for Next Hub Max */
+ .nav-list a {
+    font-size: 20px;
+  }
+  .nav-list li {
+    margin-top: 6px;
+  }
+  
+  .brand-name {
+
+    font-size: 22px
+  }
+  .logo-img {
+    width: 55px;
+    height: 50px;
+    fill: #000;
+  }
+  .navbar-wrapper {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+  }
+  
+
 }

@@ -68,3 +68,59 @@
       font-size: 1.3rem;
     }
   }
+
+  @media screen and (width: 820px) {
+
+    .with-background {
+      background-color: #093121;
+      padding: 100px;
+      color: #fff;
+      margin-bottom: 100px;
+      /* Add any other background styles you want */
+    }
+    
+
+  .joinUs {
+    width: 231.25px;
+    height: 55px;
+    background-color: #fdbb00;
+    color: #fff;
+    border: none;
+    border-radius: -5px;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 650px; */
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: transition 0.3s;
+    margin-top: -200px;
+  }
+}
+@media (width: 1280px) {
+
+  .with-background {
+    background-color: #093121;
+    padding: 100px;
+    color: #fff;
+    margin-bottom: 200px;
+    /* Add any other background styles you want */
+  }
+  
+
+.joinUs {
+  width: 231.25px;
+  height: 55px;
+  background-color: #fdbb00;
+  color: #fff;
+  border: none;
+  border-radius: -5px;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 650px; */
+  margin-left: 15px;
+  cursor: pointer;
+  background-color: transition 0.3s;
+  margin-top: 10px;
+}
+
+}

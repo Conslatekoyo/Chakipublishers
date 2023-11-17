@@ -27,6 +27,7 @@
     font-size: 36px;
     font-weight: bold;
     color:  #FF9800;
+    
 
 }
 .about-title {
@@ -41,6 +42,7 @@
 }
 .vision{
 
+    font-size: 20px;
 
 
 }
@@ -58,7 +60,7 @@
 
 
 }
-.goal{
+.goals{
     font-size: 18px;
     text-align: center;
     width: 75%;
@@ -105,7 +107,6 @@
     }
     .core{
         font-size: 28px;
-        margin-bottom: -20%;
     }
 
 
@@ -118,5 +119,52 @@
    }
 
 
+}
+@media screen and (width: 820px) {
+    .values-container{
+        margin-top: 16%;
+    }
+
+    .centered-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .title{
+        margin-bottom:10%;
+    }
+
+    .empower{
+        text-align: center;
+        margin-bottom: 11%;
+        font-family: 'Poppins', sans-serif;
+    }
+        .header{
+            margin-top:1%;
+            font-size: 20px;
+        }
+
+    
+    .values-container{
+        margin-top: 2%;
+    }
+
+    .vision{
+        margin-top: 12%;
+
+    }
+    .goal{
+        font-size: 16px;
+        text-align: center;
+
+    }
+    .core{
+        font-size: 28px;
+        margin-bottom: -20%;
+    }
 }
 
