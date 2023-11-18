@@ -49,14 +49,13 @@
   background-color: #fdbb00;
   color: #fff;
   border: none;
-  border-radius: 5px; /* Corrected to a positive value */
   cursor: pointer;
   transition: background-color 0.3s;
   margin-top: 10px;
 }
 
 .learn-more:hover {
-  background-color: #093121;
+  background-color: #8b6809;
   box-shadow: 0 0 0 1px #fff;
 }
 
@@ -137,5 +136,54 @@
   .learn-more:hover {
     background-color: #093121;
     box-shadow: 0 0 0 1px #fff;
+  }
+}
+@media (max-width: 768px) {
+  .imageStyl {
+    width: auto;
+    height: 200px;
+  }
+  .events-atom-container {
+    margin: 30px; 
+  
+    margin-bottom: 10px;
+    justify-content:s;
+    
+  }
+  .events-words {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center; /* Center the items horizontally */
+    text-align: center; /* Center the text */
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  .divH1{
+    font-size:16px;
+    font-weight: bold;
+    color: #093121;
+  
+  }
+  .text1 {
+    font-size: 14px;
+  }
+  .learn-more {
+    width: 131.25px;
+    height: 30px;
+    background-color: #fdbb00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .learn-more:hover {
+    background-color: #8b6809;
+    box-shadow: 0 0 0 1px #fff;
+  }
+  .learn-more-text{
+    font-size: 2px;
   }
 }

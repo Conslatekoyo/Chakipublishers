@@ -67,24 +67,28 @@
 /* Media query for smaller screens (landscape phones) */
 @media (max-width: 768px) {
   .divh1 {
-    font-size: 20px;
+    font-size: 16px;
+    margin-bottom: -20px;
   }
 
   .imageStyle1 {
     width: 100px;
     height: 100px;
+    margin-top: -20px;
+
   }
 
   .divText {
-    font-size: 14px;
+    font-size:14px;
     margin-top: 60px;
   }
+
 }
 
 /* Media query for even smaller screens (portrait phones) */
 @media (max-width: 540px) {
   .divh1 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .imageStyle1 {
@@ -93,7 +97,7 @@
   }
 
   .divText {
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 60px;
   }
 }

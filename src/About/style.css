@@ -24,7 +24,7 @@
     flex-direction: column;
 }
 .core{
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
     color:  #FF9800;
     
@@ -36,18 +36,18 @@
     font-weight: bold;
     color:  #FF9800;
     font-family: 'League Spartan', sans-serif;
-    margin-top: -1%;
+    margin-top: -3%;
     margin-bottom: -0%;
 
 }
-.vision{
+.mission{
 
-    font-size: 20px;
+    font-size: 28px;
 
 
 }
 .empower{
-    font-size: 27px;
+    font-size: 48px;
     font-family: 'Poppins', sans-serif;
 
 
@@ -68,6 +68,33 @@
 
 }
 @media (max-width: 768px) {
+    .goals{
+        font-size: 14px;
+        text-align: center;
+        width: 75%;
+        margin-top: -2%;
+    
+    
+    }
+    .about-title {
+        font-size: 20px;
+        font-weight: bold;
+        color:  #FF9800;
+    
+    }
+    .mission{
+        font-size: 16px;
+    }
+    .core{
+        font-size: 18px;
+    }
+    .values-container{
+        margin-top: -80px;
+    }
+}
+
+
+@media (width: 375px) {
     .centered-section {
         display: flex;
         justify-content: center;
@@ -77,12 +104,12 @@
         box-sizing: border-box;
     }
 
-    .title{
-        margin-bottom:-10%;
+    about-title{
+        font-size: 12px;
     }
 
     .empower{
-        font-size: 19px;
+        font-size: 2px;
         text-align: center;
         margin-bottom: 11%;
         font-family: 'Poppins', sans-serif;
@@ -91,7 +118,7 @@
             margin-top: 10%;
         }
 
-    }
+    
     .values-container{
         margin-top: 2%;
     }
@@ -108,15 +135,6 @@
     .core{
         font-size: 28px;
     }
-
-
-
-
-@media (width: 375px) {
-   .values-container{
-
-
-   }
 
 
 }
