@@ -22,10 +22,10 @@ const HomePage = () => {
       <div className="buttons">
       <button className="donate">
 
-        <span className="donate-text">Donate Now</span>
+        <span className="donate-text">Join Us</span>
       </button>
           <button className="causes">
-            <span className="causes-text">See Causes</span>
+            <span className="causes-text">View Our Work</span>
           </button>
 
       </div>
