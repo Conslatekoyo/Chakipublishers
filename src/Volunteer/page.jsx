@@ -5,16 +5,15 @@ const BecomeVolunteer = ()=>{
 return(
     <div className="volunteer with-background">
         <div>
-            <h1 id="volunteer">Become A volunteer</h1>
+            <h1 id="volunteer">Join our Community</h1>
             <p>
-            Join us as we endeavor to create a greener, healthier world by pursuing our goals and collaborating towards a brighter future!
-
+            Ready to bring your story to life? Connect with CHAKI today and start your publishing journey.
             </p>
         </div>
 
         <button className="joinUs">
         
-        <span className="join-us-text">See Causes</span>
+        <span className="join-us-text">Join Now</span>
       </button>
 
 

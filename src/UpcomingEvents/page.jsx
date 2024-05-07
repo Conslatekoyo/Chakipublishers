@@ -5,22 +5,17 @@ import EventsAtom from '../Atoms/events';
 const Events = () => {
   return (
     <div>
-      <h1 className="events-title" id="events">Upcoming Events</h1>
+      <h1 className="events-title" id="events">Our Work</h1>
       <div className='events' >
         <EventsAtom
           imageUrl="images/green.jpg"
-          h1="Green Workshop"
-          text="Join us for a workshop on transforming semi-desert regions into green landscapes. Learn about ecosystem restoration, biodiversity, and climate change mitigation."
-        />
-        <EventsAtom
-          imageUrl="images/empowernment.jpg"
-          h1="Empowerment Day"
-          text="Be part of our Empowerment Day! Collaborate with communities, develop sustainable solutions for clean water, renewable energy, and education."
+          h1="From a Street Kid to a CEO by Antony Cyrus"
+          text="This project showcases our holistic publishing approach. We transformed Antony Cyrus's inspiring journey into a compelling book through thorough editing, captivating design, and global distribution across platforms."
         />
         <EventsAtom
           imageUrl="images/awareness.jpg"
-          h1="Awareness Seminar"
-          text="Join our Awareness Symposium to learn about environmental conservation. Engage in educational programs and workshops, contributing to positive change."
+          h1="Made for Perpetual Honeymoon by Rev. Dr. John B.K. Murimi"
+          text="We emphasized digital accessibility by distributing Rev. Dr. John B.K. Murimi's eBook across multiple platforms, showcasing our adaptability to authors' needs. Our ongoing partnership extended to two additional titles, reflecting our commitment to fostering lasting relationships with authors."
         />
       </div>
     </div>

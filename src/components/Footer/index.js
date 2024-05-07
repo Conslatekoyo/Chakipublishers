@@ -7,11 +7,12 @@ const Footer = () => {
     <footer className="footer" id="footer">
       <div className="footer-container">
         <div className="footer-section" id="footer1">
-          <h4 className="company">African Meadows International Organisation</h4>
+          <h4 className="company">Chaki Publishers</h4>
           <ul className="about">
             <li>
-              <a href="/">is a compassionate non- profit organization that is deeply committed to supporting refugees who have fled their homes due to conflict and persecution. Our mission is to help them rebuild their
-lives and create a brighter future in their new environment.</a>
+              <a href="/">Join us as we give life to ideas.We are a cutting-edge publishing house founded in 2023,
+         devoted to transforming exceptional content into published masterpieces.
+        </a>
             </li>
 
           </ul>
@@ -23,19 +24,19 @@ lives and create a brighter future in their new environment.</a>
               <a href="/">Home</a>
             </li>
             <li>
+              <a href="/">Why Chaki</a>
+            </li>
+            <li>
               <a href="/">About Us</a>
             </li>
             <li>
-              <a href="/">Causes</a>
+              <a href="/">Our Services</a>
             </li>
             <li>
-              <a href="/">Events</a>
+              <a href="/">Our Work</a>
             </li>
             <li>
-              <a href="/">Become a Volunteer</a>
-            </li>
-            <li>
-              <a href="/">Contact Us</a>
+              <a href="/">Join Our Community</a>
             </li>
 
           </ul>
@@ -45,7 +46,7 @@ lives and create a brighter future in their new environment.</a>
           <h4 className="office">OFFICES</h4>
           <ul>
             <li className="nairobi">
-              <a href="/">Karen, Nairobi</a>
+              <a href="/">Nairobi, Kenya</a>
             </li>
           </ul>
         </div>
@@ -54,10 +55,10 @@ lives and create a brighter future in their new environment.</a>
           <h4 className="contact">CONTACT US</h4>
           <ul className="a">
             <li>
-              <a href="/">Tel: +254000034278</a>
+              <a href="/">Tel: +254758006982</a>
             </li>
             <li>
-              <a href="/">info@amio.com</a>
+              <a href="/">chakipublishers@gmail.com</a>
             </li>
           </ul>
         </div>
@@ -88,7 +89,7 @@ lives and create a brighter future in their new environment.</a>
   </li>
 </ul>
 
-        <small>&copy; AMIO {new Date().getFullYear()}, All rights reserved</small>
+        <small>&copy; CHAKIPUBLISHERS {new Date().getFullYear()}, All rights reserved</small>
       </div>
     </footer>
   );

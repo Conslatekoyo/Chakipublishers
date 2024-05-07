@@ -15,13 +15,11 @@ const Navbar = () => {
         <span className="brand-container">
           <a className="logo-link" href="#logo">
             <img
-              src={process.env.PUBLIC_URL + '/images/logo.jpg'}
-              alt="Logo"
-              className="logo-img"
+             
             />
           </a>
           <a className="brand-name" href="#logoBrand">
-            African Meadows International Organisation
+            Chaki Publishers
           </a>
         </span>
         <div className={`hamburger-menu ${isNavOpen ? 'open' : ''}`} onClick={toggleNav}>
@@ -34,20 +32,20 @@ const Navbar = () => {
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#causes">Causes</a>
+            <a href="#causes">Why Chaki</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about">About Us</a>
           </li>
 
           <li>
-            <a href="#volunteer">Become a volunteer</a>
+            <a href="#volunteer">Our Services</a>
           </li>
           <li>
-            <a href="#events">Events</a>
+            <a href="#events">Our Work</a>
           </li>
           <li>
-            <a href="#footer">Contact Us</a>
+            <a href="#footer">Join our Community</a>
           </li>
         </ul>
       </div>

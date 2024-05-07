@@ -5,22 +5,22 @@ import CausesElement from "../Atoms/causes";
 const Causes = () => {
   return (
     <div>
-      <h1 className="causes-title"  id="causes">Our Major Causes</h1>
+      <h1 className="causes-title"  id="causes">Why work with Us</h1>
     <div className="our-causes ">
       <CausesElement
-        h1="Preserve Collaboratively"
+        h1="Personalized Services"
         imageUrl="images/sustain.png"
-        text="Join us for environmental sustainability! Be an inspiration, lend your support, or become a dedicated volunteer and make a lasting impact on our planet."
+        text="Tailored publishing service supports authors from manuscript evaluation to launch, ensuring success with dedicated guidance and attention to detail."
       />
             <CausesElement
-        h1="Green Inspiration"
+        h1="Simplified Process"
         imageUrl="images/inspo.png"
-        text="Inspire change for a greener world. Your support, whether through spreading awareness or volunteering, helps us drive environmental sustainability forward."
+        text="Our streamlined self-publishing approach removes complexities, making publishing accessible and understandable. We handle editing, design, distribution, and marketing, freeing authors to focus on writing."
       />
             <CausesElement
-        h1="Earth Champions"
+        h1="Quality and Excellence"
         imageUrl="images/earth.png"
-        text="Become an Earth Champion! Your inspiration or volunteer efforts are vital in our mission to create a sustainable and thriving planet. Join us in making a difference today!"
+        text="We ensure quality in every service, from editing to design and marketing, enhancing your book's market presence with dedicated excellence."
       />
     </div>
     </div>
